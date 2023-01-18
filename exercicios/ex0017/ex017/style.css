@@ -1,0 +1,37 @@
+/*
+No css o ID do html é representado por #
+e a Class do Html é representado por .
+*/
+
+body {
+    background-color: #B58F59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+#titulo-principal{
+    background-color: #362A1A;
+    color: #F5C077;
+    text-align: center;
+}
+
+.topico{
+    background-color: #DBAD6B;
+    color: #362A1A;
+}
+
+.sub-titulo{
+    color: #754f39;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: right;
+}
+.texto{
+    text-align: justify;
+    color: #362A1A;
+}
+
+.destaque{
+    background-color: #F5C077;
+    color: #754f39;
+    font-style: italic;
+}

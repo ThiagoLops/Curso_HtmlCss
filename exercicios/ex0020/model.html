@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de site</title>
+    <style>
+        body{
+            background-color: #ADAB9E;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            margin: 0px;
+        }
+        header{
+            background-image: linear-gradient(to bottom, #90F9FC 20%, #ecdede );
+            padding: 10px;
+        }
+        header > h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 3em;
+            text-align: center;
+            color: rgb(255 255 255);
+            text-shadow: 1px 0px 15px rgba(0, 0, 0, 0.486);
+        }
+        header > nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            border: 0.5px;
+            border-style: solid;
+            padding: 7px;
+            margin: 0px;
+            border-radius: 10px;
+            color: #01b2bb;
+        }
+        header > nav > a:hover{
+            text-shadow: 1px 1px 2px black;
+            font-size: 2em;
+        }
+        header > nav > a:visited{
+            color: #1b2f30;
+        }
+        header > nav > a:active{
+            background-color: #90F9FC;
+        }
+        #assuntos {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            color: #90F9FC;
+            text-shadow: 1px 1px 2px black;
+            background-color: #ecdede;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        main > section > article{
+            display: inline-block;
+            background-color: #d8dedf;
+            margin-top: 5px;
+            padding: 10px;
+            width: 280px;
+            height: auto;
+            text-align: justify; 
+            border-radius: 10px;
+            margin-left: 5px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.61);
+        }
+        span{
+            padding: 50px;
+        }
+        mark{
+            background-color: #6cbabd96;
+        }
+        footer{
+            background-image: linear-gradient(to top, #90F9FC 20%, #ecdede );
+            padding: 5px;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            margin-top: 5px;
+
+        }
+        h2{
+            color: #1b2f30;
+        }
+        footer > p{
+            margin:0px;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="https://color.adobe.com/pt/create/color-wheel">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte   <span>  Tecnologia  </span>   Política</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Melhores notícias dos Esportes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fuga quaerat ullam! Obcaecati reprehenderit est incidunt, recusandae beatae <mark>impedit placeat officia, dolore sed veritatis autem inventore eos error ullam unde.Lorem ipsum, dolor sit amet consectetur</mark> adipisicing elit. Id, eum porro et dignissimos eius sit fugit vitae quisquam sunt, voluptatum quam maxime pariatur exercitationem enim excepturi impedit hic neque temporibus.</p>
+                <aside>
+                    <p>Artigo retirado do G1</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Melhores notícias dos Esportes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fuga quaerat ullam! Obcaecati reprehenderit est incidunt, recusandae beatae impedit placeat officia, dolore sed veritatis autem inventore eos error ullam unde.<mark>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, eum porro et dignissim</mark>os eius sit fugit vitae quisquam sunt, voluptatum quam maxime pariatur exercitationem enim excepturi impedit hic neque temporibus.</p>
+                <aside>
+                    <p>Artigo retirado do G1</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Melhores notícias dos Esportes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fuga quaerat ullam! Obcaecati reprehenderit est incidunt, recusandae beatae impedit placeat officia, dolore sed veritatis autem inventore eos error ullam unde.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, eum porro et dignissimos eius sit fugit vitae quisquam sunt, voluptatum quam maxime pariatur exercitationem enim excepturi impedit hic neque temporibus.</p>
+                <aside>
+                    <p>Artigo retirado do G1</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Melhores notícias dos Esportes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fuga quaerat ullam! Obcaecati reprehenderit est incidunt, recusandae beatae impedit placeat officia, dolore sed veritatis autem inventore eos error ullam unde.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, eum porro et dignissimos eius sit fugit vitae quisquam sunt, voluptatum quam maxime <mark>pariatur exercitationem</mark> enim excepturi impedit hic neque temporibus.</p>
+                <aside>
+                    <p>Artigo retirado do G1</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p><small>Site desenvolvido por Thiago Lops</small></p>
+    </footer>
+</body>
+</html>

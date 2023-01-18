@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: 2em;
+    font-style: normal;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: #84e1ad;
+    
+}
+
+header  {
+    background-image: linear-gradient(to bottom, #3ddb84, #164e2f);
+    color: #9adbb6;
+    text-align: center;
+    padding: 15px;
+    height: auto;
+    width: auto;
+    margin: 0%;
+}
+
+nav {
+    background-color: #164e2f;
+    padding: 4px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500px;
+    padding: 7px;
+    margin: auto;
+}
+nav > a:hover {
+    font-size: 18px;
+}
+
+#titulo-header{
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    color: #164e2f;
+    font-family: 'idroid', verdana;
+    font-size: 2em;
+}
+h2 {
+    color: #164e2f;
+    font-family: 'idroid', verdana;
+    background-image: linear-gradient(to left, white 10%, #9adbb6);
+    padding: 0px;
+}
+
+main{
+    background-color: #ffffff;
+    text-align: justify;
+    height: auto;
+    width: 50%;
+    padding: 2px 20px;
+    outline: 0px;
+    margin: auto;
+    border-radius: 10px;
+}
+main > section > article > aside > picture > img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+main > section > article > aside > img{
+    display: block;
+    height: auto;
+    width: auto;
+    margin: auto;
+} 
+#saiba-mais{
+    background-color: #b0fdd165;
+    font-weight: 600;
+    
+    border-radius: 10px;
+    padding: 0px 10px 3px 10px;
+    outline: 0px;
+    margin: 0px;
+    border-top: 0px;
+}
+
+h3{
+    display: inline-flex;
+    color: #ffffff;
+    background-color: #2cc972;
+    width: 100%;
+    padding: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 10px;
+    outline: 0px;
+    margin: auto;
+    margin-left: -10px;
+}
+
+ul{
+    display: inline-block;
+    list-style: disc inside url('✔️');
+}
+
+footer{
+    background-color: #164e2f;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 0px;
+    outline: 0px;
+    margin-top: 20px;
+    border: 1px;
+}
